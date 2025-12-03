@@ -1,7 +1,7 @@
 from_column,to_table,description
-col2,table1,고객 기본 정보 참조
-col3,table3,가맹점 정보 참조
-col4,tableX,카드 상품 기준 참조
-col5,tableY,구매 상품 기준 참조
-col8,tableZ,MCC 중분류 기준 참조
-col7,tableW,MCC 대분류 기준 참조
+mbr_csno,mm_clm_psmb_intg_info,고객 기본 정보 참조
+mcno,mm_mrch_info,가맹점 정보 참조
+card_prdt_cd,ld_card_prdt_clas_ogt,카드 상품 기준 참조
+pchs_prdt_cd,pchs_prdt_cd,구매 상품 기준 참조
+mccb_mcl_cd,mccb_mcl_cd,MCC 중분류 기준 참조
+mccb_lcl_cd,mccb_lcl_cd,MCC 대분류 기준 참조
