@@ -1,7 +1,7 @@
-START_ID,END_ID,TYPE,source_column,target_column
-table2,table1,FK,mbr_csno,mbr_csno
-table2,table3,FK,mcno,mcno
-table2,tableX,FK,card_prdt_cd,card_prdt_cd
-table2,tableY,FK,pchs_prdt_cd,pchs_prdt_cd
-table3,tableZ,FK,mccb_mcl_cd,mccb_mcl_cd
-table3,tableW,FK,mccb_lcl_cd,mccb_lcl_cd
+from_column,to_table,description
+col2,table1,고객 기본 정보 참조
+col3,table3,가맹점 정보 참조
+col4,tableX,카드 상품 기준 참조
+col5,tableY,구매 상품 기준 참조
+col8,tableZ,MCC 중분류 기준 참조
+col7,tableW,MCC 대분류 기준 참조
