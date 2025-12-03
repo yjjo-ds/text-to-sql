@@ -1,4 +1,4 @@
-:ID,column_name,data_type
+ID,column_name,data_type
 col1,id,integer
 col2,mbr_csno,text
 
