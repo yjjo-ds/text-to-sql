@@ -1,0 +1,16 @@
+:START_ID,:END_ID,:TYPE
+table1,col1,HAS_COLUMN
+table1,col2,HAS_COLUMN
+
+table2,col3,HAS_COLUMN
+table2,col4,HAS_COLUMN
+table2,col5,HAS_COLUMN
+table2,col6,HAS_COLUMN
+table2,col7,HAS_COLUMN
+
+table3,col8,HAS_COLUMN
+table3,col9,HAS_COLUMN
+table3,col10,HAS_COLUMN
+table3,col11,HAS_COLUMN
+table3,col12,HAS_COLUMN
+table3,col13,HAS_COLUMN

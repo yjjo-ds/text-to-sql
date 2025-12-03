@@ -1,0 +1,16 @@
+:ID,column_name,data_type
+col1,id,integer
+col2,mbr_csno,text
+
+col3,id,integer
+col4,mbr_csno,text
+col5,mcno,text
+col6,card_prdt_cd,text
+col7,pchs_prdt_cd,text
+
+col8,id,integer
+col9,mcno,text
+col10,cuof_ymm,text
+col11,mccb_lcl_cd,text
+col12,mccb_mcl_cd,text
+col13,mccb_cd,text
