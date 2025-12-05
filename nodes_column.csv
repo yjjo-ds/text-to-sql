@@ -1,6 +1,6 @@
 column_name,table_name,column_description
 customer_id,customers,고객 식별 ID
-tier, customers,고객 등급 (VIP, 일반 등)
+tier,customers,고객 등급 (VIP, 일반 등)
 order_id,orders,주문 고유 번호
 amount,orders,주문 금액
 product_id,products,상품 식별 번호
