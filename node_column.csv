@@ -1,14 +1,3 @@
 table_name,column_name,primary_key,column_description
-mm_clm_psmb_intg_info,mbr_csno,TRUE,
-tl_clm_cust_bnft_dtl_rsl,mbr_csno,TRUE,
-tl_clm_cust_bnft_dtl_rsl,mcno,FALSE,
-tl_clm_cust_bnft_dtl_rsl,card_prdt_cd,FALSE,
-tl_clm_cust_bnft_dtl_rsl,pchs_prdt_cd,FALSE,
-mm_mrch_info,mcno,TRUE,
-mm_mrch_info,cuof_ymm,FALSE,
-mm_mrch_info,mccb_lcl_cd,FALSE,
-mm_mrch_info,mccb_mcl_cd,FALSE,
-mm_mrch_info,mccb_cd,FALSE,
-mm_ts_card_pchs,mbr_csno,TRUE,
-mm_ts_card_pchs,mrch_nm,FALSE,
-mm_ts_card_pchs,mccb_cd,FALSE,
+mm_clm_psmb_intg_info,mbr_csno,TRUE,회원 식별 번호
+mm_mrch_info,mcno,TRUE,가맹점 식별 번호
