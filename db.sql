@@ -4,13 +4,11 @@
 -- 5 table
 -- 월 CLM 개인 회원 통합 정보
 CREATE TABLE mm_clm_psmb_intg_info (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    mbr_csno TEXT
+    mbr_csno PRIMARY KEY TEXT
 );
 -- TL_CLM_고객_혜택_상세_실적
 CREATE TABLE tl_clm_cust_bnft_dtl_rsl (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    mbr_csno TEXT,
+    mbr_csno  PRIMARY KEY TEXT,
     mcno TEXT,
     card_prdt_cd TEXT,
     pchs_prdt_cd TEXT,
@@ -21,8 +19,7 @@ CREATE TABLE tl_clm_cust_bnft_dtl_rsl (
 );
 -- 월 가맹점 정보
 CREATE TABLE mm_mrch_info (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    mcno TEXT,
+    mcno PRIMARY KEY TEXT,
     cuof_ymm TEXT,
     mccb_lcl_cd,
     mccb_mcl_cd,
