@@ -1,7 +1,11 @@
-column_name,table_name,column_description
-customer_id,customers,고객 식별 ID
-tier,customers,고객 등급 (VIP, 일반 등)
-order_id,orders,주문 고유 번호
-amount,orders,주문 금액
-product_id,products,상품 식별 번호
-category,products,상품 분류값
+table_name,column_name,primary_key,column_description
+mm_clm_psmb_intg_info,mbr_csno,TRUE,
+tl_clm_cust_bnft_dtl_rsl,mbr_csno,TRUE,
+tl_clm_cust_bnft_dtl_rsl,mcno,FALSE,
+tl_clm_cust_bnft_dtl_rsl,card_prdt_cd,FALSE,
+tl_clm_cust_bnft_dtl_rsl,pchs_prdt_cd,FALSE,
+mm_mrch_info,mcno,TRUE,
+mm_mrch_info,cuof_ymm,FALSE,
+mm_mrch_info,mccb_lcl_cd,FALSE,
+mm_mrch_info,mccb_mcl_cd,FALSE,
+mm_mrch_info,mccb_cd,FALSE,
