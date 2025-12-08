@@ -27,3 +27,12 @@ CREATE TABLE mm_mrch_info (
     FOREIGN KEY (mccb_mcl_cd) REFERENCES mccb_mcl_cd(mccb_mcl_cd),
     FOREIGN KEY (MCCB_lcl_cd) REFERENCES MCCB_lcl_cd(mccb_lcl_cd)
 );
+
+
+CREATE TABLE mm_ts_card_pchs (
+    mbr_csno PRIMARY KEY TEXT,
+    mrch_nm TEXT, -- 가맹점명 
+    mccb_cd,
+    FOREIGN KEY (mcno) REFERENCES mm_mrch_info(mcno),
+    FOREIGN KEY (mbr_csno) REFERENCES REFERENCES mm_clm_psmb_intg_info(mbr_csno)
+);
