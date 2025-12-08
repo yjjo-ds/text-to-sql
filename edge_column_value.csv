@@ -1,9 +1,4 @@
-column_name,value_name
-mbr_csno,
-mcno,
-card_prdt_cd,
-pchs_prdt_cd,
-cuof_ymm,
-mccb_lcl_cd,
-mccb_mcl_cd,
-mccb_cd,
+table_name,column_name,value_name
+mm_ts_card_pchs,mrch_nm,롯데슈퍼중계점
+mm_ts_card_pchs,mrch_nm,알찬김밥
+mm_ts_card_pchs,mrch_nm,쿠팡
