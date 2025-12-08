@@ -1,8 +1,4 @@
 table_name,table_description
 mm_clm_psmb_intg_info,월 CLM 개인 회원 통합 정보
 tl_clm_cust_bnft_dtl_rsl,TL_CLM 고객 혜택 상세 실적
-mm_mrch_info,월 가맹점 정보 테이블
-ld_card_prdt_clas_ogt,LD 카드 상품 분류 체계
-pchs_prdt_cd,매출 상품 코드
-mccb_mcl_cd,가맹점 업종 중분류 코드
-mccb_lcl_cd,가맹점 업종 대분류 코드
+mm_mrch_info,월 가맹점 정보
