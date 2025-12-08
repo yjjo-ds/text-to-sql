@@ -9,3 +9,6 @@ mm_mrch_info,cuof_ymm
 mm_mrch_info,mccb_lcl_cd
 mm_mrch_info,mccb_mcl_cd
 mm_mrch_info,mccb_cd
+mm_ts_card_pchs,mbr_csno
+mm_ts_card_pchs,mrch_nm
+mm_ts_card_pchs,mccb_cd
