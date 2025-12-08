@@ -28,7 +28,7 @@ CREATE TABLE mm_mrch_info (
     FOREIGN KEY (MCCB_lcl_cd) REFERENCES MCCB_lcl_cd(mccb_lcl_cd)
 );
 
-
+-- 월 TS 카드 매출
 CREATE TABLE mm_ts_card_pchs (
     mbr_csno PRIMARY KEY TEXT,
     mrch_nm TEXT, -- 가맹점명 
