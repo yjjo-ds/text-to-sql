@@ -11,6 +11,7 @@ csv 파일을 업로드할 수 있는 cypher 쿼리도 부탁해
 * node_colum.csv
     * table_name, column_name, primary_key, column_description 으로 구성
     * primary_key 는 노드의 property 로 표현
+    * column_description 은 노드의 property 로 표현
 * edge_table_column.csv
     * table_name, column_name 으로 구성
 * edge_column_value.csv
