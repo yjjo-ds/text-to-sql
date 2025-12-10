@@ -12,6 +12,7 @@ CREATE TABLE tl_clm_cust_bnft_dtl_rsl (
     mcno TEXT, --가맹점 번호 
     card_prdt_cd TEXT, -- 카드상품코드
     pchs_prdt_cd TEXT, -- 매출상품코드
+    bnft_amt, -- 혜택금액
     FOREIGN KEY (card_prdt_cd) REFERENCES ld_card_prdt_clas_ogt(card_prdt_cd),
     FOREIGN KEY (pchs_prdt_cd) REFERENCES pchs_prdt_cd(pchs_prdt_cd)
     FOREIGN KEY (mcno) REFERENCES mm_mrch_info(mcno),
