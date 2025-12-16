@@ -1,0 +1,30 @@
+// 1. Create Table Nodes
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/yjjo-ds/data-store/main/node_table.csv' AS row
+MERGE (:Table {name: row.table_name, description: row.table_description});
+
+// 2. Create Column Nodes
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/yjjo-ds/data-store/main/node_column.csv' AS row
+MERGE (:Column {
+    table_name: row.table_name,
+    name: row.column_name,
+    primary_key: row.primary_key = 'TRUE'
+});
+
+// 3. Table → Column 관계 생성
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/yjjo-ds/data-store/main/edge_table_column.csv' AS row
+MATCH (t:Table {name: row.table_name})
+MATCH (c:Column {table_name: row.table_name, name: row.column_name})
+MERGE (t)-[:HAS_COLUMN]->(c);
+
+// 4. 컬럼값 노드 생성 (값은 빈 상태 유지)
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/yjjo-ds/data-store/main/edge_column_value.csv' AS row
+MATCH (c:Column {table_name: row.table_name, name: row.column_name})
+MERGE (v:Value {name: row.value_name})
+MERGE (c)-[:HAS_VALUE]->(v);
+
+// 5. FK 관계 생성 (참조되지 않은 테이블은 무시)
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/yjjo-ds/data-store/main/edge_foreign_key.csv' AS row
+MATCH (src:Column {table_name: row.table_name, name: row.column_name})
+MATCH (tgt:Column {name: row.column_name})
+WHERE src.table_name <> tgt.table_name
+MERGE (src)-[:FOREIGN_KEY]->(tgt);

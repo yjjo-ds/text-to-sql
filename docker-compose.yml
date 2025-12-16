@@ -42,4 +42,4 @@ services:
       neo4j:
         condition: service_healthy
     restart: unless-stopped
-    command: tail -f /dev/nulldgg
+    command: tail -f /dev/null

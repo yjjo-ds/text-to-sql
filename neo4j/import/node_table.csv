@@ -1,0 +1,5 @@
+table_name,table_description
+mm_clm_psmb_intg_info,월 CLM 개인 회원 통합 정보
+tl_clm_cust_bnft_dtl_rsl,TL_CLM 고객 혜택 상세 실적
+mm_mrch_info,월 가맹점 정보
+mm_ts_card_pchs,월 TS 카드 매출

@@ -6,8 +6,8 @@ langchain==0.1.0
 langchain-community==0.0.20
 langchain-core==0.1.23
 
-# LangChain Neo4j 통합
-langchain-neo4j==0.0.1
+# LangChain Neo4j 통합 (langchain-neo4j 패키지가 제거됨)
+# Neo4j 통합은 langchain-community에 포함되어 있어 별도 패키지 불필요
 
 # GraphRAG 및 벡터 임베딩
 langchain-openai==0.0.5
